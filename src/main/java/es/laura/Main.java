@@ -13,6 +13,7 @@ public class Main {
 
         System.out.println("il nome e' lungo "+p.getName().length() + " caratteri") ;
         System.out.println("The end");
+        System.out.println(" dovrei essere qui");
 
         System.out.println("-------------------------------------------");
 
