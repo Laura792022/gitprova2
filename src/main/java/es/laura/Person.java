@@ -7,9 +7,11 @@ public class Person {
     private String surname;
     private String indirizzo;
 
+    private int age;
+
     public Person() {
-        this.name = "SCONOSCIUTO";
-        this.surname = "DESCONOCIDO";
+        this.surname = "<UNKNOWN>";
+        this.name = "<UNKNOWN>";
     }
 
     public Person(String name, String surname) {
