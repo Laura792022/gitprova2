@@ -6,9 +6,11 @@ public class Person {
     private String name;
     private String surname;
 
+    private int age;
+
     public Person() {
-        this.name = "UNKNOWN";
-        this.surname = "UNKNOWN";
+        this.name = "<UNKNOWN>";
+        this.surname = "<UNKNOWN>";
     }
 
     public Person(String name, String surname) {
