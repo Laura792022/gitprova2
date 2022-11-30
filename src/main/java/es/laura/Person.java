@@ -5,10 +5,11 @@ public class Person {
 
     private String name;
     private String surname;
+    private String indirizzo;
 
     public Person() {
-        this.name = "UNKNOWN";
-        this.surname = "UNKNOWN";
+        this.name = "SCONOSCIUTO";
+        this.surname = "DESCONOCIDO";
     }
 
     public Person(String name, String surname) {
