@@ -2,8 +2,8 @@ package es.laura;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("cambio prova 3");
-        System.out.println("dovrei essere qui");
+        System.out.println("[MASTER] cambio prova 3");
+        System.out.println("[MASTER] dovrei essere qui");
         Person p = new Person();
         p.setSurname("Izquierdo");
         p.setName("Luca");
