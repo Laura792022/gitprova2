@@ -2,6 +2,7 @@ package es.laura;
 
 import java.util.List;
 
+//to seal
 public class Developer extends Person{
 
     private List<String> languages;
